@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himani MOMOS Center | Hot, Fresh & Delicious Momos</title>
+  <meta
+    name="description"
+    content="Experience premium street-style momos at Himani MOMOS Center with spicy chutney, handmade fillings, smoky tandoori flavors, combo meals, and fast ordering."
+  >
+  <meta
+    name="keywords"
+    content="Himani MOMOS Center, momos restaurant, street food, veg momos, chicken momos, tandoori momos, momo menu"
+  >
+  <meta name="theme-color" content="#8f0000">
+  <meta property="og:title" content="Himani MOMOS Center">
+  <meta property="og:description" content="Hot, fresh and delicious momos with premium street-food energy.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Himani MOMOS Center",
+      "servesCuisine": ["Street Food", "Momos", "Fast Food"],
+      "priceRange": "INR 200-600",
+      "description": "Premium street-style momo restaurant serving fresh handmade momos, spicy chutneys, combos, and beverages.",
+      "telephone": "+91 98765 43210",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Main Market Road",
+        "addressLocality": "Your City",
+        "addressCountry": "IN"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__orb"></div>
+    <div class="loader__spinner">&#129375;</div>
+    <p>Steaming up the flavor...</p>
+  </div>
+
+  <div class="site-shell">
+    <header class="topbar" id="top">
+      <nav class="navbar container">
+        <a class="brand" href="#top" aria-label="Himani MOMOS Center home">
+          <span class="brand__mark brand__mark--image">
+            <img src="assets/HimaniLogo.png" alt="Himani MOMOS Center logo">
+          </span>
+          <span class="brand__text">
+            <strong>Himani</strong>
+            <em>MOMOS Center</em>
+          </span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="navMenu">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#offers">Offers</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="#contact">Book a Table</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero__slider" id="heroSlider" aria-hidden="true">
+          <div class="hero__slide is-active" style="background-image: url('https://images.openai.com/static-rsc-4/vEkPm1D6k31prstnybTYG2LkP2fPXQE_g137QxS_iJwKotcB16iHHTZ8hCC3Bf_ooHZF8trMUiQz0MrF1d7iT-tNK9t7dd_zqinFGRMEIbUB0Mem36YemMwi17NMhqVWtGsI8ONplPCT2PCCS9J9TispBTpFeoF6VEzP_FObq_BkiVQCCft7IBhwg174Igmf?purpose=fullsize');"></div>
+          <div class="hero__slide" style="background-image: url('https://images.openai.com/static-rsc-4/i5vMIb3Fd6RQg9BwY3YKvXT2HLSN_sokP8-J2EFrLO7BLXnkmTEGofiR2OrBckvGL6-xYi9DbAwreMKki9_33z6VJXtuUDtyY162xOzzxjurboPoDAQ_Sx571nYSPLErHdNVrKguAKpbBQuwnYrKljpF0ohaNjxAxaq4Uxlsr6SY5Ts9brpG-lbD4sKcvEXP?purpose=fullsize');"></div>
+          <div class="hero__slide" style="background-image: url('https://images.openai.com/static-rsc-4/4yRuFzSkL4wNnAUxc7gS-KeVfjn_p03vAXUFYArC-tVGz-Lnhd0hQriXcarnVo8sebwLqeRP4wFMGsTJ8yWf2xeNi3kaSqMnsk3jHDHgbvCsuyTWROJf0nxclXjg597SrCISuRl4rgODoP37ryTYYCiLmtyfImQ0lFnPOaRhDzJ8fWDxKoh8RlqMgxgeQg0V?purpose=fullsize');"></div>
+          <div class="hero__slide" style="background-image: url('https://images.openai.com/static-rsc-4/7F-f7M_R2DQWdNeLZ2fZ3kRTdCXEZW_-GphLqZ1Pa9F6vi25NU0cSOXQAzR4qZHWckFDpTtEnx9R1xAKJMJdh4nx_PILOC_rRy_0qVX-vMnzFPz8Rh9U4Wx4ViiN9TVYcWQKAnyb3tMrZEped30S2RfDOSaXJR6eyWgYnM6Ksis4NdJpUPziGe-a8kiKBC54?purpose=fullsize');"></div>
+        </div>
+
+        <div class="hero__overlay"></div>
+        <div class="hero__particles" id="heroParticles"></div>
+
+        <div class="container hero__content">
+          <div class="hero__copy reveal">
+            <p class="eyebrow">Premium Street-Food Energy</p>
+            <h1 class="hero__title">
+              <span>Hot, Fresh &amp; Delicious</span>
+              <span>Momos at Himani MOMOS Center</span>
+            </h1>
+            <p class="hero__subtitle">
+              Taste the authentic street-style momos with spicy chutney, smoky tandoori finish,
+              and handcrafted fillings made fresh every day.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#menu">Order Now</a>
+              <a class="btn btn--secondary" href="#menu">View Menu</a>
+            </div>
+
+            <div class="hero__stats">
+              <div>
+                <strong>12K+</strong>
+                <span>Orders served hot</span>
+              </div>
+              <div>
+                <strong>18+</strong>
+                <span>Bold menu choices</span>
+              </div>
+              <div>
+                <strong>4.9 &#9733;</strong>
+                <span>Street food fan rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal">
+            <div class="hero-plate parallax-card" data-depth="18">
+              <div class="steam" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <img
+                src="https://images.openai.com/static-rsc-4/V7VVDMsVn5B6XS9rmEcSLxvWj2UFZChdbjeLN7og_SsyMuXbUWiAiX9Lg9bN7vOhD9JxtHFBscKsyYRG9i8J91cRKjpPw9XCmUc_XCq_lcVdZFBlQffrm9SeqGhhQT0JthsQS7pcC9C7Np9_2tcmfTDsdTccKeSLfV57WPSH2lb_YkShcQo43wNjIMjsyZf-?purpose=fullsize"
+                alt="Fresh steamed momos plated with spicy chutney"
+              >
+              <div class="hero-plate__badge">Chef Special</div>
+            </div>
+
+            <div class="hero-card hero-card--top reveal">
+              <span>Smoky Tandoori</span>
+              <strong>Fire grilled with house masala</strong>
+            </div>
+            <div class="hero-card hero-card--bottom reveal">
+              <span>Express Order</span>
+              <strong>Pickup, dine-in &amp; WhatsApp delivery</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__controls">
+          <button class="hero__dot is-active" data-slide="0" aria-label="Hero slide 1"></button>
+          <button class="hero__dot" data-slide="1" aria-label="Hero slide 2"></button>
+          <button class="hero__dot" data-slide="2" aria-label="Hero slide 3"></button>
+          <button class="hero__dot" data-slide="3" aria-label="Hero slide 4"></button>
+        </div>
+      </section>
+
+      <section class="feature-ribbon">
+        <div class="container feature-ribbon__track">
+          <span>Handmade Fresh Daily</span>
+          <span>Street-Style Spicy Chutney</span>
+          <span>Steamed, Fried &amp; Tandoori</span>
+          <span>Fast Delivery &amp; Pickup</span>
+          <span>Combo Deals Every Week</span>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container two-col">
+          <div class="section-copy reveal">
+            <p class="section-tag">About Us</p>
+            <h2>Crafting the bold street-food experience one steamy plate at a time.</h2>
+            <p>
+              Himani MOMOS Center brings the buzz of the street corner into a premium dining vibe.
+              We prepare handmade momos, layer every filling with fresh ingredients, and finish
+              each order with signature spicy chutneys and smoky sauces.
+            </p>
+            <p>
+              From classic steamed bites to crunchy fried favorites and blazing tandoori platters,
+              our kitchen is built for flavor lovers who want comfort, speed, and unforgettable spice.
+            </p>
+
+            <div class="about__highlights">
+              <article class="glass-card">
+                <strong>Fresh Handmade</strong>
+                <span>Dough folded and filled in small batches all day.</span>
+              </article>
+              <article class="glass-card">
+                <strong>Quality Ingredients</strong>
+                <span>Fresh vegetables, juicy proteins, and premium cheeses.</span>
+              </article>
+              <article class="glass-card">
+                <strong>Street-Food Soul</strong>
+                <span>Authentic heat, smoky grills, and fast serving energy.</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="about__visual reveal">
+            <div class="about__grid">
+              <img
+                src="https://images.openai.com/static-rsc-4/kVfiImf5kelrWgVPxKToHEFSYybSd6zsB_2egTN2bJ4AS9RBoUB4Zn41MNC6_619FWFFY_KW9m5MIWXHk7TlAQh4HtmuN8aFVkyv5J0HPGkOnnDx0TvInnkqcP_vh8T9_SbfH3hLRAkufTDNWEerqQdeFgm-9bIVgNiblTSDq5ko9wUQGkP7Gsn5UNEnpzXX?purpose=fullsize"
+                alt="Restaurant special momo platter"
+              >
+              <img
+                src="https://images.openai.com/static-rsc-4/7F-f7M_R2DQWdNeLZ2fZ3kRTdCXEZW_-GphLqZ1Pa9F6vi25NU0cSOXQAzR4qZHWckFDpTtEnx9R1xAKJMJdh4nx_PILOC_rRy_0qVX-vMnzFPz8Rh9U4Wx4ViiN9TVYcWQKAnyb3tMrZEped30S2RfDOSaXJR6eyWgYnM6Ksis4NdJpUPziGe-a8kiKBC54?purpose=fullsize"
+                alt="Fresh street-style momo arrangement"
+              >
+              <div class="about__badge">
+                <strong>Every Plate</strong>
+                <span>Made hot, served fast, remembered long.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Menu</p>
+            <h2>Flavor bombs for every craving</h2>
+            <p>Choose your heat level, style, and favorite filling from our most-loved lineup.</p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/G7m4HUetG4yTwJ1cs7zVnodcWYJm2WaR7ukN7AbiInbomSTk3pElCFOHEVs_8Hqu3mgYrgdPC4W_PuydDxzQOF1bhpeV894W5TYdZAvBPVQw0wF0Ia1texwi6Yh6nmViUZpyjrqm8GknzOCTNGjyHGHqbiPw12zbIqg_FzPvoX2aCiifyYmLYKOpI-o7fq7D?purpose=fullsize" alt="Veg Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Classic</span><strong>&#8377;99</strong></div>
+                <h3>Veg Momos</h3>
+                <p>Crisp cabbage, carrot, onion, and bold house seasoning.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/LkMitXaU4Pe_jR7-cEtBwNhNgzSq9OfQrRGiGPmveU4DcZ0DUz1BJX7znS8T4JkSaFcNTbrczZXXVVhT2YKsoAWrfJUxiEDJ7dCnFiZzgnAyLILNuTDwqDt8y_sYeEI426ANIvMJA476exqO8wReolU8MYeBO8aG_tgP9Rlual99dxNEo6axJ9Cldjsz8SMi?purpose=fullsize" alt="Paneer Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Rich &amp; Creamy</span><strong>&#8377;139</strong></div>
+                <h3>Paneer Momos</h3>
+                <p>Soft paneer, herbs, green chili, and creamy masala stuffing.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/CIu0Qemo2mWpMqHg4o3sagzNEHaYgqEhXy65O3HnEKt1p8XJN5xc0woVXfBNgQimXCz-4DVyRESPQCpKRWsLV70IVXGyi7PofWT083OyFCzGOGtpM95v6cwvRfo2e9GGo56L8_btGW0b8VM8zxICXctM9jHZxqb-yV9IH_zNnGlemoFKSSO0nD1zT_R5HgQY?purpose=fullsize" alt="Chicken Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Best Seller</span><strong>&#8377;149</strong></div>
+                <h3>Chicken Momos</h3>
+                <p>Juicy chicken filling wrapped in tender dough with fiery dip.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/V7VVDMsVn5B6XS9rmEcSLxvWj2UFZChdbjeLN7og_SsyMuXbUWiAiX9Lg9bN7vOhD9JxtHFBscKsyYRG9i8J91cRKjpPw9XCmUc_XCq_lcVdZFBlQffrm9SeqGhhQT0JthsQS7pcC9C7Np9_2tcmfTDsdTccKeSLfV57WPSH2lb_YkShcQo43wNjIMjsyZf-?purpose=fullsize" alt="Fried Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Crispy Crunch</span><strong>&#8377;129</strong></div>
+                <h3>Fried Momos</h3>
+                <p>Golden-fried dumplings with extra crunch and chili garlic sauce.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/wJQI0KGgcZrIhShqrQu_x0xCBIG4cLjfLZPX_OkSAT0KhLoBiqvI3kFdFYJ1XCotRIc_d73rf96R4-1kt7TTsqiq5FGWuXgDu5D-Yyg-16MnqHXpbfdJTmZNEw11gUmspKbZHPEu-LExaQHtda0ol4N9IvWq1GxCQ_Vl09RoCEk_SrMD4ZjefcU7iYgHZMEg?purpose=fullsize" alt="Tandoori Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Fire Grill</span><strong>&#8377;169</strong></div>
+                <h3>Tandoori Momos</h3>
+                <p>Charred edges, smoky marinade, and signature red masala glaze.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/RaxcMBqKYlgC_-r0WfW292coOrl24iitlC6eD9H7y2dkTg57sJP4Pr0criJO1UlYSHPjgByikkriqyrl8urfGuuJkuyHEBB13EzbjAWxt1ABIdD6n-AWNSP86HhVxIP76xN-mB0TXNYASbIQaFNf_usOuav3KQKZFw_8dFYYaz4hygW54CpWL2pzo-fp0xQ-?purpose=fullsize" alt="Cheese Momos">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Melted Center</span><strong>&#8377;159</strong></div>
+                <h3>Cheese Momos</h3>
+                <p>Stretchy cheese filling with pepper spice and creamy topping.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/TlAChlrZtiioCgauc5RafGAEff4sSu0o64eh9lCU20fIBJefvBiBOlFtivINHhXYNiERICDLrShWIYOIUVykQ_enEmEl1qjgOAZ--tnkhnGCPlzVCx5DX6gsBcKkgMhTpgTj8gQQQ6RkmuJIArTYJqRFCBD_l9GsYyFLLupVbZVafFOXTwzOO8eXGv_BE_eX?purpose=fullsize" alt="Combo meal platter">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Power Combo</span><strong>&#8377;249</strong></div>
+                <h3>Combo Meals</h3>
+                <p>Momos, fries, chutney trio, and chilled drink in one box.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-card__image">
+                <img src="https://images.openai.com/static-rsc-4/i5vMIb3Fd6RQg9BwY3YKvXT2HLSN_sokP8-J2EFrLO7BLXnkmTEGofiR2OrBckvGL6-xYi9DbAwreMKki9_33z6VJXtuUDtyY162xOzzxjurboPoDAQ_Sx571nYSPLErHdNVrKguAKpbBQuwnYrKljpF0ohaNjxAxaq4Uxlsr6SY5Ts9brpG-lbD4sKcvEXP?purpose=fullsize" alt="Beverages served with food">
+              </div>
+              <div class="food-card__body">
+                <div class="food-card__meta"><span>Cool Down</span><strong>&#8377;59</strong></div>
+                <h3>Beverages</h3>
+                <p>Masala soda, iced tea, mojito, and chilled soft drinks.</p>
+                <button class="btn btn--ghost add-cart">Add to Cart</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section offers" id="offers">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Special Offers</p>
+            <h2>Hot deals made to move fast</h2>
+            <p>Limited-time combos, festival specials, and spicy savings for every foodie squad.</p>
+          </div>
+
+          <div class="offers-grid">
+            <article class="offer-card reveal">
+              <span class="offer-card__badge">Combo Drop</span>
+              <h3>Buy 2 Platters, Get 1 Beverage Free</h3>
+              <p>Perfect for friends, office cravings, and game-night fuel.</p>
+              <strong>Save up to 18%</strong>
+            </article>
+
+            <article class="offer-card reveal">
+              <span class="offer-card__badge">Festival Heat</span>
+              <h3>Flat 25% Off on Tandoori Momos</h3>
+              <p>Celebrate the season with smoky grilled favorites and extra dip.</p>
+              <strong>Weekend only</strong>
+            </article>
+
+            <article class="offer-card reveal">
+              <span class="offer-card__badge">Lunch Rush</span>
+              <h3>Office Combo at &#8377;199</h3>
+              <p>6 momos, fries, dip trio, and a cool drink for quick lunch breaks.</p>
+              <strong>12 PM - 4 PM</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reviews" id="reviews">
+        <div class="container reviews__wrap">
+          <div class="section-copy reveal">
+            <p class="section-tag">Customer Reviews</p>
+            <h2>The kind of reactions spicy cravings dream about</h2>
+            <p>
+              Street-food lovers keep coming back for the steam, crunch, smoky glaze, and the
+              chutney kick that hits exactly right.
+            </p>
+          </div>
+
+          <div class="testimonial-carousel reveal" id="testimonialCarousel">
+            <article class="testimonial-card is-active">
+              <div class="testimonial-card__top">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer portrait of Riya">
+                <div>
+                  <h3>Riya S.</h3>
+                  <p>Food Blogger</p>
+                </div>
+              </div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "The tandoori momos are unreal. Smoky, juicy, spicy and plated like a premium cafe."
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__top">
+                <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Customer portrait of Aman">
+                <div>
+                  <h3>Aman T.</h3>
+                  <p>Regular Customer</p>
+                </div>
+              </div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "Fast service, loaded combos, and that red chutney has the perfect street-style heat."
+              </p>
+            </article>
+
+            <article class="testimonial-card">
+              <div class="testimonial-card__top">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer portrait of Neha">
+                <div>
+                  <h3>Neha P.</h3>
+                  <p>College Foodie</p>
+                </div>
+              </div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>
+                "The cheese momos and fried momos duo is elite. Great vibe, great photos, great taste."
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Gallery</p>
+            <h2>A visual feast of steam, spice, and glossy sauces</h2>
+            <p>Tap any frame to open the lightbox and soak in the flavor details.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/c9KiuPrcAoIbmstDNb-qHo97KAS08fRxKtFkHYtKWzTGfwSt3AQmdDtFcksz6Nbx2GEcpbTAiTQHeMrcKMPiGwCjVvSnS91ohhrUW5RiQKOnQ7OD0ahMqlsP4YaDFNRzu9QgCjiT5Fotb6M8XxlzGLDaeoenPIT3Ni_qXCHQqwmx1eLkIvp8HJin8mtOCKjj?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/c9KiuPrcAoIbmstDNb-qHo97KAS08fRxKtFkHYtKWzTGfwSt3AQmdDtFcksz6Nbx2GEcpbTAiTQHeMrcKMPiGwCjVvSnS91ohhrUW5RiQKOnQ7OD0ahMqlsP4YaDFNRzu9QgCjiT5Fotb6M8XxlzGLDaeoenPIT3Ni_qXCHQqwmx1eLkIvp8HJin8mtOCKjj?purpose=fullsize" alt="Gallery view of plated momos">
+            </button>
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/i5vMIb3Fd6RQg9BwY3YKvXT2HLSN_sokP8-J2EFrLO7BLXnkmTEGofiR2OrBckvGL6-xYi9DbAwreMKki9_33z6VJXtuUDtyY162xOzzxjurboPoDAQ_Sx571nYSPLErHdNVrKguAKpbBQuwnYrKljpF0ohaNjxAxaq4Uxlsr6SY5Ts9brpG-lbD4sKcvEXP?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/i5vMIb3Fd6RQg9BwY3YKvXT2HLSN_sokP8-J2EFrLO7BLXnkmTEGofiR2OrBckvGL6-xYi9DbAwreMKki9_33z6VJXtuUDtyY162xOzzxjurboPoDAQ_Sx571nYSPLErHdNVrKguAKpbBQuwnYrKljpF0ohaNjxAxaq4Uxlsr6SY5Ts9brpG-lbD4sKcvEXP?purpose=fullsize" alt="Gallery close-up of restaurant dish">
+            </button>
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/V7VVDMsVn5B6XS9rmEcSLxvWj2UFZChdbjeLN7og_SsyMuXbUWiAiX9Lg9bN7vOhD9JxtHFBscKsyYRG9i8J91cRKjpPw9XCmUc_XCq_lcVdZFBlQffrm9SeqGhhQT0JthsQS7pcC9C7Np9_2tcmfTDsdTccKeSLfV57WPSH2lb_YkShcQo43wNjIMjsyZf-?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/V7VVDMsVn5B6XS9rmEcSLxvWj2UFZChdbjeLN7og_SsyMuXbUWiAiX9Lg9bN7vOhD9JxtHFBscKsyYRG9i8J91cRKjpPw9XCmUc_XCq_lcVdZFBlQffrm9SeqGhhQT0JthsQS7pcC9C7Np9_2tcmfTDsdTccKeSLfV57WPSH2lb_YkShcQo43wNjIMjsyZf-?purpose=fullsize" alt="Gallery image of spicy momo platter">
+            </button>
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/pIifsDAl7DwXrfIjIO_A-8Zrw4D-qCbr-1pZ1WaEDHz22K6rtQxiTJKIyRv3bdLLqs63l7TR3_eN33sUV5HBK_AbRle0FxykaTT-lmNT9vnYa32x7hm6D__MgowywAqzNlkJvhDJvEOjJsof_5BszFMr9BzYRAD9Gea6hFx1T8OPXB4yDdxdLOSRnx23bAqs?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/pIifsDAl7DwXrfIjIO_A-8Zrw4D-qCbr-1pZ1WaEDHz22K6rtQxiTJKIyRv3bdLLqs63l7TR3_eN33sUV5HBK_AbRle0FxykaTT-lmNT9vnYa32x7hm6D__MgowywAqzNlkJvhDJvEOjJsof_5BszFMr9BzYRAD9Gea6hFx1T8OPXB4yDdxdLOSRnx23bAqs?purpose=fullsize" alt="Gallery food shot with dipping sauce">
+            </button>
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/yyOXiJgX_nvDlEg_ufWhwv3ILs3GQ2lNcNbeypz2RJzLFFdTuVMMz8rFtprTBFXyGdt-RZXdhWwCwYzYWR5VW4YwLCwcoJuM8yThnkAxeKhq0zvfqCrD9JlHeQUc7KDeTMtmLpBrfBpe-Tq5FRmPTOLkbOMzae6W0CfcuUrND7WwrbFKyVf6o9Nm01a5UToA?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/yyOXiJgX_nvDlEg_ufWhwv3ILs3GQ2lNcNbeypz2RJzLFFdTuVMMz8rFtprTBFXyGdt-RZXdhWwCwYzYWR5VW4YwLCwcoJuM8yThnkAxeKhq0zvfqCrD9JlHeQUc7KDeTMtmLpBrfBpe-Tq5FRmPTOLkbOMzae6W0CfcuUrND7WwrbFKyVf6o9Nm01a5UToA?purpose=fullsize" alt="Gallery image of grill and spice finish">
+            </button>
+            <button class="gallery-item reveal" data-lightbox="https://images.openai.com/static-rsc-4/LkMitXaU4Pe_jR7-cEtBwNhNgzSq9OfQrRGiGPmveU4DcZ0DUz1BJX7znS8T4JkSaFcNTbrczZXXVVhT2YKsoAWrfJUxiEDJ7dCnFiZzgnAyLILNuTDwqDt8y_sYeEI426ANIvMJA476exqO8wReolU8MYeBO8aG_tgP9Rlual99dxNEo6axJ9Cldjsz8SMi?purpose=fullsize">
+              <img src="https://images.openai.com/static-rsc-4/LkMitXaU4Pe_jR7-cEtBwNhNgzSq9OfQrRGiGPmveU4DcZ0DUz1BJX7znS8T4JkSaFcNTbrczZXXVVhT2YKsoAWrfJUxiEDJ7dCnFiZzgnAyLILNuTDwqDt8y_sYeEI426ANIvMJA476exqO8wReolU8MYeBO8aG_tgP9Rlual99dxNEo6axJ9Cldjsz8SMi?purpose=fullsize" alt="Gallery image of premium paneer momos">
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-grid">
+          <div class="contact__panel reveal">
+            <p class="section-tag">Contact &amp; Location</p>
+            <h2>Pull up, call in, or drop a WhatsApp order</h2>
+            <div class="contact-list">
+              <a href="tel:+919876543210">
+                <strong>Phone</strong>
+                <span>+91 98765 43210</span>
+              </a>
+              <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer">
+                <strong>WhatsApp</strong>
+                <span>Order in minutes with live confirmation</span>
+              </a>
+              <div>
+                <strong>Address</strong>
+                <span>Main Market Road, Near City Square, Your City</span>
+              </div>
+              <div>
+                <strong>Timings</strong>
+                <span>11:00 AM - 11:30 PM | Open all week</span>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" aria-label="Your Name">
+              <input type="tel" placeholder="Phone Number" aria-label="Phone Number">
+              <textarea rows="4" placeholder="Tell us what you're craving" aria-label="Message"></textarea>
+              <button type="submit" class="btn btn--primary">Send Inquiry</button>
+            </form>
+          </div>
+
+          <div class="contact__map reveal">
+            <iframe
+              title="Himani MOMOS Center location"
+              src="https://www.google.com/maps?q=Connaught%20Place%20New%20Delhi&z=13&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <a class="brand brand--footer" href="#top">
+            <span class="brand__mark brand__mark--image">
+              <img src="assets/HimaniLogo.png" alt="Himani MOMOS Center logo">
+            </span>
+            <span class="brand__text">
+              <strong>Himani</strong>
+              <em>MOMOS Center</em>
+            </span>
+          </a>
+          <p>Premium street-food energy, handcrafted momos, and spicy cravings handled daily.</p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <div class="footer__links">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#offers">Offers</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+        </div>
+
+        <div>
+          <h3>Follow Us</h3>
+          <div class="socials">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="#" aria-label="WhatsApp">WA</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Himani MOMOS Center. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close gallery">&times;</button>
+    <img id="lightboxImage" src="" alt="Expanded gallery image">
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">Added to cart</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
