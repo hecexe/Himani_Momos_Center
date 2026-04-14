@@ -11,7 +11,7 @@ Built to deliver a **premium street-food restaurant vibe** with modern UI, glowi
 Add your deployed website link here:
 
 ```md
-https://your-live-website-link.com
+[https://your-live-website-link.com](https://hecexe.github.io/Himani_Momos_Center/)
 ```
 
 ## ✨ Features
@@ -110,7 +110,7 @@ Premium restaurant branding inspired by modern food websites.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/himani-momos-center.git
+git clone https://hecexe.github.io/Himani_Momos_Center/.git
 ```
 
 Open the project folder:
