@@ -14,35 +14,6 @@ Add your deployed website link here:
 https://your-live-website-link.com
 ```
 
----
-
-## 📸 Website Preview
-
-## 📸 Website Preview
-
-### Full Website Screenshot
-![Full Website Screenshot](./screenshots/full_screenshot.png)
-
-### About Section
-![About Section](./screenshots/about.png)
-
-### Menu Section
-![Menu Section](./screenshots/menu.png)
-
-### Offers Section
-![Offers Section](./screenshots/offer.png)
-
-### Reviews Section
-![Reviews Section](./screenshots/reviews.png)
-
-### Gallery Section
-![Gallery Section](./screenshots/gallery.png)
-
-### Contact Section
-![Contact Section](./screenshots/location.png)
-
----
-
 ## ✨ Features
 
 - 🔥 Premium red & black restaurant theme
@@ -168,6 +139,33 @@ Optimized for:
 
 ---
 
+
+## 📸 Website Preview
+
+### Full Website Screenshot
+![Full Website Screenshot](./screenshots/full_screenshot.png)
+
+### About Section
+![About Section](./screenshots/about.png)
+
+### Menu Section
+![Menu Section](./screenshots/menu.png)
+
+### Offers Section
+![Offers Section](./screenshots/offer.png)
+
+### Reviews Section
+![Reviews Section](./screenshots/reviews.png)
+
+### Gallery Section
+![Gallery Section](./screenshots/gallery.png)
+
+### Contact Section
+![Contact Section](./screenshots/location.png)
+---
+
+---
+
 ## 💡 Project Goal
 
 To create a **premium digital presence for a street-food restaurant business** that increases customer engagement and online orders.
@@ -178,7 +176,7 @@ To create a **premium digital presence for a street-food restaurant business** t
 
 **Your Name**
 
-GitHub: `@yourusername`
+GitHub: `@hecexe
 
 ---
 
