@@ -18,8 +18,10 @@ https://your-live-website-link.com
 
 ## 📸 Website Preview
 
-### Hero Section
-![Hero Section](./screenshots/hero.png)
+## 📸 Website Preview
+
+### Full Website Screenshot
+![Full Website Screenshot](./screenshots/full_screenshot.png)
 
 ### About Section
 ![About Section](./screenshots/about.png)
@@ -28,7 +30,7 @@ https://your-live-website-link.com
 ![Menu Section](./screenshots/menu.png)
 
 ### Offers Section
-![Offers Section](./screenshots/offers.png)
+![Offers Section](./screenshots/offer.png)
 
 ### Reviews Section
 ![Reviews Section](./screenshots/reviews.png)
@@ -37,7 +39,7 @@ https://your-live-website-link.com
 ![Gallery Section](./screenshots/gallery.png)
 
 ### Contact Section
-![Contact Section](./screenshots/contact.png)
+![Contact Section](./screenshots/location.png)
 
 ---
 
